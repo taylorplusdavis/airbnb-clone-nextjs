@@ -6,7 +6,7 @@ interface CategoryInputProps {
   icon: IconType;
   label: string;
   selected?: boolean;
-  onClick?: (value: string) => void;
+  onClick: (value: string) => void;
 }
 
 const CategoryInput: React.FC<CategoryInputProps> = ({
